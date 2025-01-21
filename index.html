@@ -60,9 +60,7 @@
             width: 96%; /* Ancho del contenedor */
             overflow-x: auto; /* Permitir desplazamiento horizontal */
             white-space: nowrap; /* Evitar que el contenido se divida en varias líneas */
-            border: 1px solid #ccc; /* Borde del contenedor */
             padding: 10px; /* Espaciado interno */
-            background-color: white; /* Fondo blanco */
             overflow-x: auto; /* Permitir desplazamiento horizontal */
         }
         .titulo {
@@ -75,6 +73,9 @@
             width: 300px; /* Ancho de cada video */
             height: 169px; /* Altura de cada video (relación 16:9) */
             margin-right: 10px; /* Espaciado entre videos */
+        }
+        .barra {
+            display: inline-block; /* Mostrar elementos en línea */
             border: none; /* Sin borde */
         }
         .iframe {
@@ -129,10 +130,10 @@
         <div class="cuadro">
             <h2>Redes sociales</h2>
             <div class="contenedor">
-                <div class="video">
+                <div class="barra">
                     <a rel="me" href="https://vzla.masto.host/@danieruotakuboy"><img class="rrss" src="https://cdn.masto.host/vzlamastohost/custom_emojis/images/000/016/226/original/dba338ed318bfcf3.png"><br><h3>Mastodon</h3></a>
                 </div>
-                <div class="video">    
+                <div class="barra">    
                     <a rel="me" href="https://bsky.app/profile/danieruotakuboy.vzla.masto.host.ap.brid.gy"><img class="rrss" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/600px-Bluesky_Logo.svg.png?20240211144739"><br><h3>Bluesky</h3></a>
                 </div>
             </div>
