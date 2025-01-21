@@ -34,11 +34,6 @@
             margin-left: 10px; /* Espacio entre el h1 y la imagen */
             text-align: center;
         }
-        h2, .rrss {
-            display: inline-block; /* Permite que ambos elementos estén en línea */
-            vertical-align: middle; /* Alinea verticalmente */
-            text-align: center;
-        }
         .rrss {
             width: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
             height: auto; /* Mantiene la proporción de la imagen */
@@ -47,6 +42,15 @@
         h2 {
             text-align: center;
             color: black;
+        }
+        a {
+            text-decoration: none; /* Elimina el subrayado */
+            color: inherit; /* Hereda el color del texto del elemento padre */
+        }
+        .rrss, h3 {
+            display: inline-block; /* Permite que ambos elementos estén en línea */
+            vertical-align: middle; /* Alinea verticalmente */
+            text-align: center;
         }
         p {
             color: #666;
@@ -123,7 +127,7 @@
         </div>
         <div class="cuadro">
             <h2>Redes sociales</h2>
-            <a rel="me" href="https://vzla.masto.host/@danieruotakuboy"><img class="rrss" src="https://cdn.masto.host/vzlamastohost/custom_emojis/images/000/016/226/original/dba338ed318bfcf3.png">Mastodon</a>
+            <a rel="me" href="https://vzla.masto.host/@danieruotakuboy"><img class="rrss" src="https://cdn.masto.host/vzlamastohost/custom_emojis/images/000/016/226/original/dba338ed318bfcf3.png"><h3>Mastodon</h3></a>
     </div>
 </body>
 </html>
